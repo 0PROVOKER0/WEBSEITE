@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #ff5757; /* Hintergrundfarbe für Sichtbarkeit */
+    padding: 0; /* Padding auf 0 setzen, um Innenabstände zu entfernen */
+    margin: 0; /* Margin auf 0 setzen, um äußere Abstände zu entfernen */
+    display: flex;
+    justify-content: center; /* Zentriert die Elemente horizontal */
+}
+.LOL-nav{
+    width: 100%;
+    background-color: #001353; /* Hintergrundfarbe für Sichtbarkeit */
+    padding: 0; /* Padding auf 0 setzen, um Innenabstände zu entfernen */
+    margin: 0; /* Margin auf 0 setzen, um äußere Abstände zu entfernen */
+    display: flex;
+    justify-content: center; /* Zentriert die Elemente horizontal */
+}
+
+nav ul {
+    list-style-type: none; /* Listenpunkte entfernen */
+    padding: 2vw;
+    margin: 0px;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 0px; /* Abstand zwischen Elementen, optional */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 2.08vw 4vw;
+}
+
+nav ul li a.index:hover {
+    background-color: #ffccbc;
+    color: black;
+    transition: background-color 0s ;
+}
+
+nav ul li a.Minecraft:hover {
+    background-color: #4CAF50;
+    transition: background-color 0s ;
+}
+
+nav ul li a.BrawlStars:hover {
+    background-color: #ff9900;
+    transition: background-color 0s ;
+}
+
+nav ul li a.LOL:hover {
+    background-color: #7e9cff;
+    transition: background-color 0s ;
+}
+
+/*index Bild neben h1*/
+.header {
+    display: flex;  /*Wegen das sind die Elemente nebeneinander!*/
+    align-items: center;
+    padding: 20px;
+    background-color: #ffccbc;
+}
+
+.header-image {
+    max-width: 10vw; /* oder eine andere gewünschte Größe */
+    margin-right: 20px; /* Abstand zwischen Bild und Überschrift */
+    transition: transform 0.3s ease; /* Übergang für das Vergrößern und Verkleinern */
+}
+.header-image:hover{
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.header-title {
+    margin: 0;
+}
+
+/*LOL Bild neben h1*/
+.header-LOL {
+    display: flex;  /*Wegen das sind die Elemente nebeneinander!*/
+    align-items: center;
+    padding: 20px;
+    background-color: #7e9cff;
+}
+
+.header-image-LOL {
+    max-width: 10vw; /* oder eine andere gewünschte Größe */
+    margin-right: 20px; /* Abstand zwischen Bild und Überschrift */
+}
+
+.header-title-LOL {
+    margin: 0;
+    color: white;
+}
